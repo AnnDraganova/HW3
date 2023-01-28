@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+  </head>
+  <body>
+    <header>
+      <h1>Пошук машин</h1>
+      <hr />
+    </header>
+    <main>
+      <form action="#">
+        <h2>Тип кузова</h2>
+        <select name="car_body" id="car_body">
+          <option value="sedan">Седан</option>
+          <option value="kabriolet">Кабриолет</option>
+          <option value="suv">Кроссовер</option>
+        </select>
+        <h2>Марка авто</h2>
+        <select name="car_make" id="car_make">
+          <option value="vw">VW</option>
+          <option value="kia">KIA</option>
+          <option value="volvo">VOLVO</option>
+        </select>
+        <h2>Країна виробник</h2>
+        <select name="origin" id="origin">
+          <option value="japan">Японiя</option>
+          <option value="china">Китай</option>
+          <option value="usa">США</option>
+        </select>
+        <h2>Ціна</h2>
+        <label for="fromP">від</label>
+        <input id="fromP" type="number" />
+        <label for="toP">до</label>
+        <input id="toP" type="number" />
+        <h2>Тип палива </h2>
+        <label for="crash1">Газ</label>
+        <input id="crash1" type="checkbox" />
+        <br />
+        <label for="credit1"> Дизель</label>
+        <input id="credit1" type="checkbox" />
+        <br />
+        <label for="not-clear1">Бензин</label>
+        <input id="not-clear1" type="checkbox" />
+        <h2>Тип коробки передач </h2>
+        <label for="auto">Автомат</label>
+        <input id="auto" type="checkbox" />
+        <br />
+        <label for="man">Механ</label>
+        <input id="man" type="checkbox" />
+        <h2>Стан</h2>
+        <label for="crash">Битий</label>
+        <input id="crash" type="checkbox" />
+        <br />
+        <label for="credit"> У кредиті</label>
+        <input id="credit" type="checkbox" />
+        <br />
+        <label for="not-clear">Нерозмитнена</label>
+        <input id="not-clear" type="checkbox" />
+        <h2>Рік випуску</h2>
+        <label for="from">від</label>
+        <input id="from" type="date" />
+        <label for="to">до</label>
+        <input id="to" type="date" />
+        <h2>Колір</h2>
+        <input type="radio" id="contactChoice1" name="color" />
+        <label for="contactChoice1">Чорний</label>
+        <input type="radio" id="contactChoice2" name="color" />
+        <label for="contactChoice2">Жовтий</label>
+        <input type="radio" id="contactChoice3" name="color" />
+        <label for="contactChoice3">Червоний</label>
+        <h2>Комфорт</h2>
+        <input type="checkbox" id="comfort1" />
+        <label for="comfort1">Чорний салон</label>
+        <input type="checkbox" id="comfort2" />
+        <label for="comfort2">Шкіряний салон</label>
+        <input type="checkbox" id="comfort3" />
+        <label for="comfort3">Люк</label>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
